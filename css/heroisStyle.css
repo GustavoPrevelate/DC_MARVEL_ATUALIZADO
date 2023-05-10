@@ -1,0 +1,32 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    height: 100%;
+    display: grid;
+    
+  }
+  
+  header {
+    background-color: var(--red-color);
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  main {
+    display: grid;
+    justify-content: center;
+    
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--red-color);
+    color: var(--white-color);
+    padding: 0px 96px;
+    min-height: 15vh;
+  }

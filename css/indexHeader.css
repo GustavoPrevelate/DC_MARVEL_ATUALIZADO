@@ -1,0 +1,82 @@
+/************************ Definindo a área do site ***************************/
+
+.area_header{
+    max-width: 1920px;
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+        "linkmarvel linkdc linkherois";
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 40vh;
+}
+
+/************************ Navegação do site ***************************/
+
+.container__site__dcmarvel{
+    grid-area: navigation;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-container__dcmarvel{
+    display: flex;
+    gap: 64px;
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.menu-container__dcmarvel li{
+    border-bottom: 4px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.menu-container__dcmarvel li:hover{
+    border-bottom: 4px solid var(--purple-color);
+}
+
+.direcionamento__site__dcmarvel{
+    display: flex;
+    color: var(--white-color);
+    font-weight: bold;
+}
+
+/************************ Logo da DC e da MARVEL ***************************/
+
+.logo__dcmarvel{
+    display: flex;
+    height: 150px;
+    width: 654px;
+    flex-direction: row;
+}
+
+.logo__dcmarvel__texto{
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--cyan-color);
+}
+
+.marvel__dc{
+    display: flex;
+    gap: 48px;
+}
+
+.marvel__rota{
+    grid-area: linkmarvel;
+    font-size: 3rem;
+    color: var(--red-color);
+}
+
+.dc__rota{
+    grid-area: linkdc;
+    font-size: 3rem;
+    color: var(--dark-blue-color);
+}
+.herois__rota{
+    grid-area: linkherois;
+    font-size: 3rem;
+    color: var(--yellow-color);
+}

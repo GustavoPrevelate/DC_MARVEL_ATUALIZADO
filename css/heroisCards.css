@@ -1,0 +1,17 @@
+h1{
+    background-color: tomato;
+}
+
+.card-container__herois{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container__background{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}

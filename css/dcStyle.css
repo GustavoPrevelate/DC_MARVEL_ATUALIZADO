@@ -1,0 +1,32 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    height: 288vh;
+    display: grid;
+    grid-template-rows: 400px 1fr;
+  }
+  
+  header {
+    background-color: var(--yellow-color);
+    padding: 0px 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  main {
+    display: grid;
+    justify-content: center;
+    background-color: #4400ff;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--yellow-color);
+    color: var(--white-color);
+    padding: 0px 96px;
+    min-height: 15vh;
+  }

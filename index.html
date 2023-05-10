@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/indexFooter.css">
+    <link rel="stylesheet" href="./css/indexHeader.css">
+    <link rel="stylesheet" href="./css/indexMain.css">
+    <link rel="stylesheet" href="./css/indexStyle.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/root.css">
+    <link rel="stylesheet" href="./pages/marvel.html">
+    <link rel="stylesheet" href="./pages/dc.html"> 
+
+    <!-- Links para fontes do site -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
+
+    <!-- Kit para icones -->
+    <script src="https://kit.fontawesome.com/3cc9c6ad82.js" crossorigin="anonymous"></script>
+
+    <!-- Links para javaScript -->
+    <script src="../js/router.js" defer type="module"></script>
+    <script src="../js/cardherois.js" defer></script>
+    
+
+    <title>DC - Marvel</title>
+</head>
+<body>
+    <header>
+      <div class="area_header">
+        <van class="menu-container">
+          <div class="marvel__dc">
+    
+            <div class="marvel__rota">
+              <a href="/marvel" class="logo__dcmarvel__texto" onclick="route(this)">MARVEL</a>
+            </div>
+            <div class="dc__rota">
+              <a href="/dc" class="logo__dcmarvel__texto" onclick="route(this)">DC - Comics</a>
+            </div>
+            <div class="herois__rota">
+              <a href="/herois" class="logo__dcmarvel__texto" onclick="route(this)">Herois favoritos</a>
+            </div>
+            
+          </div>
+        </van>
+      </div>
+      
+    </header>
+    <main id="root">
+      
+      <img class="background__main__index" src="./img/wallpaperherois.jpg" alt="logo__site">
+
+    </main>
+    <footer>
+      <div class="area_footer">
+        <div class="marvel__dc__footer">
+          <div class="marvel__rota__footer">
+            <span class="texto_informacoes__marvel__footer">DISNEY+</span>
+            <img class="logo__dcmarvel__footer" src="./img/marvel_logo.png" alt="logo__site">
+          </div>
+          <div class="dc__rota__footer">
+            <span class="texto_informacoes__dc__footer">HBO MAX</span>
+            <img class="logo__dcmarvel__footer" src="./img/dc_logo.png" alt="logo__site">
+          </div>
+        </div>
+        <ul class="container_meios_contato__dcmarvel">
+          <li class="informacoes__dcmarvel">
+            <i class="fas fa-phone-alt"></i>
+            <span class="texto_informacoes">(11) 97449-4479</span>
+          </li>
+          <li class="informacoes__dcmarvel">
+            <i class="fas fa-envelope"></i>
+            <span class="texto_informacoes">guprevelate2022@gmail.com</span>
+          </li>
+        </ul>
+        <p class="texto_copyright_site__dcmarvel">Copyright © 2022 | Gustavo Prevelate Ribeiro Da Silva</p>
+        <nav class="container_midias_sociais__dcmarvel">
+          <a href="#" class="midia_social__dcmarvel"><i class="fab fa-youtube"></i></a>
+          <a href="#" class="midia_social__dcmarvel"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="midia_social__dcmarvel"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="midia_social__dcmarvel"><i class="fab fa-facebook-f"></i></a>
+        </nav>
+      </div>
+      
+    </footer>
+</body>
+</html>

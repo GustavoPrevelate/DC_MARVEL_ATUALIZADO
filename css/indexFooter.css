@@ -1,0 +1,123 @@
+/************************ Definindo a área do site ***************************/
+
+.area_footer{
+    max-width: 1920px;
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+        "logofooter logofooter logofooter"
+        "linkfooter copyright icones";
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 50vh;
+    
+}
+
+/************************ Link das logos DC e Marvel ***************************/
+
+.marvel__dc__footer{
+    display: flex;
+    grid-area: logofooter;
+    gap: 256px;
+}
+.logo__dcmarvel__footer{
+    display: flex;
+    height: 250px;
+    width: 613px;
+    
+}
+/************************ Link da logo da Marvel ***************************/
+
+.marvel__rota__footer{
+    grid-area: logomarvelfooter;
+}
+.texto_informacoes__marvel__footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--cyan-color);
+}
+
+
+/************************ Link da logo da DC ***************************/
+
+.dc__rota__footer{
+    grid-area: logodcfooter;
+}
+.texto_informacoes__dc__footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--cyan-color);
+}
+/************************ Entre em contato ***************************/
+
+  .container_meios_contato__dcmarvel{
+    display: flex;
+    grid-area: linkfooter;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+  }
+
+  .informacoes__dcmarvel {
+    display: flex;
+    gap: 24px;
+    font-size: 1.2rem;
+    font-weight: 200;
+    font-weight: bold;
+    
+  }
+  
+
+/************************ Copyright ***************************/
+
+ .texto_copyright_site__dcmarvel{
+    display: flex;
+    grid-area: copyright;
+    align-items: center;
+    width: 900px;
+    font-size: 2rem;
+    font-weight: 200;
+    font-weight: bold;
+    padding-left: 100px;
+  }
+
+/************************ Icones ***************************/
+
+  .container_midias_sociais__dcmarvel {
+    display: flex;
+    grid-area: icones;
+    gap: 20px;
+    align-items: center;
+    color: var(--white-color);
+  }
+  
+  .midia_social__dcmarvel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border: 2px solid var(--white-color);
+    border-radius: 50%;
+  }
+  
+  .midia_social__dcmarvel:hover {
+    background-color: var(--white-color);
+    color: var(--white-color);
+  }
+  
+  .midia_social__dcmarvel > i {
+    font-size: 1.375rem;
+    color: var(--white-color);
+    line-height: 0;
+  }
+
+  
