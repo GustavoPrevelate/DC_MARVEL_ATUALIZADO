@@ -4,14 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link css -->
     <link rel="stylesheet" href="./css/indexFooter.css">
     <link rel="stylesheet" href="./css/indexHeader.css">
     <link rel="stylesheet" href="./css/indexMain.css">
     <link rel="stylesheet" href="./css/indexStyle.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/root.css">
-    <link rel="stylesheet" href="./pages/marvel.html">
+
+    <!-- Link html -->
+    <link rel="stylesheet" href="./pages/superheroes.html">
     <link rel="stylesheet" href="./pages/dc.html"> 
+
+    <link rel="stylesheet" href="../css/styleSuperHeroes.css">
+    <link rel="stylesheet" href="../css/searchCharacter.css">
+    <link rel="stylesheet" href="../css/cardCharacter.css">
 
     <!-- Links para fontes do site -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -24,9 +32,12 @@
     <!-- Links para javaScript -->
     <script src="../js/router.js" defer type="module"></script>
     <script src="../js/cardherois.js" defer></script>
+    <script src="./js/main.js" defer></script>
+    <script src="./js/index.js" defer></script>
     
-
-    <title>DC - Marvel</title>
+    
+    <!-- Titulo do site -->
+    <title>Super Heroes - DC e Marvel</title>
 </head>
 <body>
     <header>
@@ -34,11 +45,11 @@
         <van class="menu-container">
           <div class="marvel__dc">
     
-            <div class="marvel__rota">
-              <a href="/marvel" class="logo__dcmarvel__texto" onclick="route(this)">MARVEL</a>
+            <div class="superheroes__rota">
+              <a href="/superheroes" class="logo__dcmarvel__texto" onclick="route(this)">Criadores</a>
             </div>
-            <div class="dc__rota">
-              <a href="/dc" class="logo__dcmarvel__texto" onclick="route(this)">DC - Comics</a>
+            <div class="api__rota">
+              <a href="/api" class="logo__dcmarvel__texto" onclick="route(this)">API</a>
             </div>
             <div class="herois__rota">
               <a href="/herois" class="logo__dcmarvel__texto" onclick="route(this)">Herois favoritos</a>
@@ -51,18 +62,35 @@
     </header>
     <main id="root">
       
-      <img class="background__main__index" src="./img/wallpaperherois.jpg" alt="logo__site">
 
+      <div class="title__search__heroes">
+        <h2 class="title__heroes">Aba de seleção de personagem abaixo, retornando imagem </h2>
+      </div>    
+
+        <div class="container__character">
+          <form class="procura__personagem">
+              <input type="text" placeholder="Selecione um personagem" name="seach">
+              <button type="submit" class="button" name="button" aria-label="button"> </button>
+              <div class="resultado__filtragem__busca" id="resultado__filtragem__busca"></div>
+          </form>
+          <div class="character__hero">
+              <img class="character__img" src="../img/gwen.jpg" alt="">
+          </div>
+          <div class="title__character">
+            <h2 id="nome__personagem__encontrado">Spider-Gwen</h2>
+          </div>
+        </div>
+          
     </main>
     <footer>
       <div class="area_footer">
         <div class="marvel__dc__footer">
           <div class="marvel__rota__footer">
-            <span class="texto_informacoes__marvel__footer">DISNEY+</span>
+            <a class="texto_informacoes__marvel__footer" href="https://www.disneyplus.com/pt-br/brand/marvel">DISNEY+</a>
             <img class="logo__dcmarvel__footer" src="./img/marvel_logo.png" alt="logo__site">
           </div>
           <div class="dc__rota__footer">
-            <span class="texto_informacoes__dc__footer">HBO MAX</span>
+            <a class="texto_informacoes__dc__footer" href="https://www.hbomax.com/br/pt/dc-comics">HBO MAX</a>
             <img class="logo__dcmarvel__footer" src="./img/dc_logo.png" alt="logo__site">
           </div>
         </div>

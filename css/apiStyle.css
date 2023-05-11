@@ -3,13 +3,13 @@ html {
   }
   
   body {
-    height: 288vh;
+    height: 300vh;
     display: grid;
-    grid-template-rows: 400px 1fr;
+    grid-template-rows: 200px 2fr 1fr;
   }
   
   header {
-    background-color: var(--yellow-color);
+    background-color: var(--red-color);
     padding: 0px 96px;
     display: flex;
     justify-content: space-between;
@@ -19,13 +19,13 @@ html {
   main {
     display: grid;
     justify-content: center;
-    background-color: #4400ff;
+    background-color: var(--cyan-color);
   }
   
   footer {
     display: flex;
     justify-content: space-between;
-    background-color: var(--yellow-color);
+    background-color: var(--red-color);
     color: var(--white-color);
     padding: 0px 96px;
     min-height: 15vh;

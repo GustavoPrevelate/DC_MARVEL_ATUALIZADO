@@ -64,13 +64,13 @@
     gap: 48px;
 }
 
-.marvel__rota{
+.superheroes__rota{
     grid-area: linkmarvel;
     font-size: 3rem;
     color: var(--red-color);
 }
 
-.dc__rota{
+.api__rota{
     grid-area: linkdc;
     font-size: 3rem;
     color: var(--dark-blue-color);
@@ -79,4 +79,23 @@
     grid-area: linkherois;
     font-size: 3rem;
     color: var(--yellow-color);
+}
+
+/************************ Titulo de pesquisa ***************************/
+.title__search__heroes{
+    display: flex;
+    width: 900px;
+    height: 7rem;
+    background-color: var(--cyan-color);
+    border-radius: 200px;
+    justify-content: center;
+}
+
+.title__heroes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    font-weight: 900;
 }

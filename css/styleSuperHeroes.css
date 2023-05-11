@@ -1,0 +1,30 @@
+html {
+    scroll-behavior: smooth;
+}
+  
+body {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows:0.5fr 3fr 0.5fr;
+    justify-content: center;
+}
+
+li {
+    cursor: pointer;
+}
+
+main {
+    display: grid;
+    grid-area: 'container__character';
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+

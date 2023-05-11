@@ -1,0 +1,38 @@
+/* Modificando posição do personagem */
+.character__hero {
+    display: flex;
+    justify-content: center;
+}
+
+/* Card do personagem pesquisado */
+.character__img {
+    display: flex;
+    height: 500px;
+    width: 500px;
+    border: 24px solid var(--cyan-color);
+    border-radius: 20%;
+    
+}
+
+/* Container que compõe toda a pesquisa */
+.container__character {
+    display: grid;
+    grid-area: 'left';
+    align-items: center;
+    gap: 60px;
+    background-color: var(--black-color);
+    border-radius: 2rem;
+}
+
+/* Titulo com o nome do personagem */
+.title__character {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    background-color: var(--cyan-color);
+    border-radius: 2rem;
+    
+    
+}
