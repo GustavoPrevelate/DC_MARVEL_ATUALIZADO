@@ -1,9 +1,9 @@
 'use strict'
 
   const routes = {
-    '/superheroes'              :   '/pages/superheroes.html',
-    '/api'                      :   '/pages/api.html',
-    '/herois'                   :   '/pages/herois.html',
+    '/superheroes'              :   '../pages/superheroes.html',
+    '/api'                      :   '../pages/api.html',
+    '/herois'                   :   '../pages/herois.html',
 }
 
 const route = async () => {

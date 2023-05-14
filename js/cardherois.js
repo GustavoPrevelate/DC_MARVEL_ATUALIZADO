@@ -118,6 +118,175 @@ class cardherois extends HTMLElement {
             font-family: 'Roboto', sans-serif;
             color: #ffffff;
         }
+
+        @media (max-width: 600px){
+            .card{
+                width: 500px;
+                height: 500px;
+                display: grid;
+                grid-template-rows: 20% 60% 20%;
+                place-items: center;
+                background-color: ${this.cor};
+            }
+            .card__text{
+                color: #ffffff;
+                font-size: 2.2rem;
+                font-weight: bold;
+                font-family: 'Roboto', sans-serif;
+            }
+            .card__image{
+                height: 300px;
+                width: 300px;
+                border-radius: 50%;
+                background-color: yellow;
+                background-image: url(${this.foto});
+                background-size: cover;
+            }
+            .container__herois{
+                display: flex;
+                grid-area: cardheroi;
+                height: 2200px;
+                width: 600px;
+                flex-direction: column;
+                justify-content: center;
+                aling-items: center;
+                padding-top: 80px;
+                padding-left: 80px;
+                background-color: ${this.backgroundcor};
+            }
+            .alinhamento__info__herois{
+                display: grid;
+                grid-template-areas:
+                "cardheroi"
+                "biografia"
+                "textobiografia"
+                "feitos"
+                "textofeitos";
+                flex-direction: column;
+                justify-content: center;
+                height: 1300px;
+                width: 450px;
+                font-weight: 900px;
+            }
+            .biografia__heroi{
+                grid-area: biografia;
+                font-size: 3rem;
+                font-weight: bold;
+                font-weight: 900px;
+                font-family: 'Roboto', sans-serif;
+                color: ${this.cor};
+                width: 200px;
+            }
+            .texto__bibliografia__heroi{
+                grid-area: textobiografia;
+                font-size: 2rem;
+                font-weight: 900px;
+                font-family: 'Roboto', sans-serif;
+                color: #ffffff;
+                height: 500px;
+                width: 500px;
+            }
+            .feitos__heroi{
+                grid-area: feitos;
+                font-size: 3rem;
+                font-weight: bold;
+                font-weight: 900px;
+                font-family: 'Roboto', sans-serif;
+                color: ${this.cor};
+                width: 200px;
+            }
+            .texto__feitos__heroi{
+                grid-area: textofeitos;
+                font-size: 2rem;
+                font-weight: 900px;
+                font-family: 'Roboto', sans-serif;
+                color: #ffffff;
+            }
+            
+            @media (max-width: 375px){
+                .card{
+                    width: 275px;
+                    height: 600px;
+                    display: grid;
+                    grid-template-rows: 20% 60% 20%;
+                    place-items: center;
+                    
+                    background-color: ${this.cor};
+                }
+                .card__text{
+                    color: #ffffff;
+                    font-size: 2.2rem;
+                    font-weight: bold;
+                    font-family: 'Roboto', sans-serif;
+                }
+                .card__image{
+                    height: 200px;
+                    width: 200px;
+                    border-radius: 50%;
+                    background-color: yellow;
+                    background-image: url(${this.foto});
+                    background-size: cover;
+                }
+                .container__herois{
+                    display: flex;
+                    grid-area: cardheroi;
+                    height: 3500px;
+                    width: 375px;
+                    flex-direction: column;
+                    padding-top: 80px;
+                    background-color: ${this.backgroundcor};
+                }
+                .alinhamento__info__herois{
+                    display: grid;
+                    grid-template-areas:
+                    "cardheroi"
+                    "biografia"
+                    "textobiografia"
+                    "feitos"
+                    "textofeitos";
+                    flex-direction: column;
+                    justify-content: center;
+                    height: 2200px;
+                    width: 275px;
+                    font-weight: 900px;
+                }
+                .biografia__heroi{
+                    grid-area: biografia;
+                    font-size: 3rem;
+                    font-weight: bold;
+                    font-weight: 900px;
+                    font-family: 'Roboto', sans-serif;
+                    color: ${this.cor};
+                    width: 200px;
+                    max-height: 60px;
+                }
+                .texto__bibliografia__heroi{
+                    grid-area: textobiografia;
+                    font-size: 2rem;
+                    font-weight: 900px;
+                    font-family: 'Roboto', sans-serif;
+                    color: #ffffff;
+                    height: 960px;
+                    width: 275px;
+                }
+                .feitos__heroi{
+                    grid-area: feitos;
+                    font-size: 3rem;
+                    font-weight: bold;
+                    font-weight: 900px;
+                    font-family: 'Roboto', sans-serif;
+                    color: ${this.cor};
+                    width: 200px;
+                    max-height: 60px;
+                }
+                .texto__feitos__heroi{
+                    grid-area: textofeitos;
+                    font-size: 2rem;
+                    font-weight: 900px;
+                    font-family: 'Roboto', sans-serif;
+                    color: #ffffff;
+                }
+        }
         `
         return css
     }
