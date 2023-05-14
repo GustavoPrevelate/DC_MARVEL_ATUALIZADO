@@ -14,6 +14,8 @@
         min-height: 40vh;
     
 }
+/************************ Link das logos ***************************/
+
 
 /************************ Link das logos DC e Marvel ***************************/
 
@@ -31,7 +33,7 @@
 /************************ Link da logo da Marvel ***************************/
 
 .marvel__rota__footer{
-    grid-area: logomarvelfooter;
+    grid-area: logofooter;;
 }
 .texto_informacoes__marvel__footer{
     display: flex;
@@ -46,7 +48,7 @@
 /************************ Link da logo da DC ***************************/
 
 .dc__rota__footer{
-    grid-area: logodcfooter;
+    grid-area: logofooter;;
 }
 .texto_informacoes__dc__footer{
     display: flex;
