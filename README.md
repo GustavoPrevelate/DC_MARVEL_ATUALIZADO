@@ -44,7 +44,7 @@ O LightHouse basicamente analisa todo o seu site, indicando como está determina
 
 ---
 ## Equipe
-- [Gustavo Prevelate Ribeiro Da Silva](https://fernandoleonid.github.io/whatsApp-senai-1-2023/ds2m/gustavo_prevelate_ribeiro_da_silva/)
+- [Gustavo Prevelate Ribeiro Da Silva](https://github.com/GustavoPrevelate)
 
 # Critérios de Avaliação
 
