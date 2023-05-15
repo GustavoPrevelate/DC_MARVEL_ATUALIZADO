@@ -3,16 +3,15 @@ html {
   }
   
   body {
-    height: 300vh;
+    height: 100%;
     display: grid;
-    grid-template-rows: 200px 2fr 1fr;
+    grid-template-rows: 0.3fr 2fr 0.5fr;
   }
   
   header {
     background-color: var(--red-color);
-    padding: 0px 96px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
   
@@ -30,3 +29,30 @@ html {
     padding: 0px 96px;
     min-height: 15vh;
   }
+
+  /* html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    height: 100%;
+    display: grid;
+  }
+  
+  header {
+    background-color: var(--red-color);
+    display: flex;
+  }
+  
+  main {
+    display: grid;
+    justify-content: center;
+    background-color: var(--blue-color);
+  }
+  
+  footer {
+    display: flex;
+    background-color: var(--red-color);
+    color: var(--white-color);
+    
+  } */

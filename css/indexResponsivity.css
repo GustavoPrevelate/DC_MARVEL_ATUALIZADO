@@ -64,6 +64,8 @@
     footer{
         display: flex;
         max-width: 600px;
+        justify-content: center;
+        align-items: center;
     }
     /* FOOTER */
     .area_footer{
@@ -71,9 +73,9 @@
         width: 600px;
         display: grid;
         grid-template-areas:
-        "logofooter "
+        "logofooter"
         "linkfooter"
-        " copyright "
+        "copyright"
         "icones";
         grid-template-columns: 1fr 1fr 1fr;
         justify-items: center;
@@ -87,12 +89,15 @@
         display: flex;
         grid-area: logofooter;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         gap: 40px;
     }
     .logo__dcmarvel__footer{
         display: flex;
         height: 250px;
         width: 500px;
+        padding-right: 40px;
         
         
     }
@@ -197,35 +202,7 @@
 
 /************************* Container Imagem *************************/
 
-.image__superherodb{
-    grid-area: imagemapi;
-    width: 600px;
-    height: 600px;
-}
-/************************* Container Link do site superHeroesDB *************************/
-
-.link__info__api{
-    display: flex;
-    width: 1920px;
-    height: 200px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 48px;
-}
-
-.link__api__superheroesdb{
-    display: flex;
-    font-size: 4rem;
-    color: var(--red-color);
-   
-}
-
-.link__api__superheroesapi{
-    display: flex;
-    font-size: 4rem;
-    color: var(--blue-color);
-}
+/* aaaaaaaaaaaaaaaaaaaa */
 
 /************************* Container minhas opinião sobre API *************************/
 
