@@ -32,7 +32,7 @@ Site desenvolvido para colocar os conhecimentos obtidos no curso do [SENAI Jandi
 
 - Figma
 
-![Screenshot](./img-readme/figma.png)
+![Screenshot](./img-readme/figma-atualizado.png)
 
 [Clique aqui](https://www.figma.com/file/OlWHqaiaT2YDRFA0ZpUERf/SuperHeroes---API?type=design&node-id=0-1&t=coGoNwKfCa79qYZx-0) para visitar o Figma.
 
