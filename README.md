@@ -9,7 +9,7 @@
 ![Screenshot](./img-readme/main.png)
 ![Screenshot](./img-readme/footer.png)
 
-[Clique aqui](https://gustavoprevelate.github.io/DC_MARVEL_ATUALIZADO/) para visitar o site.
+[Clique aqui](https://dc-marvel-atualizado.vercel.app/) para visitar o site.
 
 ---
 
