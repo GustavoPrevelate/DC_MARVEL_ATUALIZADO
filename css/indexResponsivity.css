@@ -8,7 +8,9 @@
         width: 100%;
         display: grid;
         grid-template-areas:
-         "linkmarvel linkdc linkherois";
+         "linkmarvel"
+         "linkdc"
+         "linkherois";
         grid-template-columns: 1fr;
         justify-items: center;
         align-items: center;

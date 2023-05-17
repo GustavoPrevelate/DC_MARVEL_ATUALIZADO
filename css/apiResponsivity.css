@@ -8,13 +8,7 @@
         align-items: center;
         
     }
-    .area_header{
-        display: flex;
-        width: 600px;
-        height: 400px;
-        justify-content: center;
-        align-items: center;
-    }
+    
     
     .image__superherodb{
         display: none;
