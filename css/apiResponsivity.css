@@ -1,0 +1,27 @@
+@media(max-width: 600px){
+    
+    .image__api{
+        display: none;
+    }
+    
+    .api__superheroes{
+        max-width: 600px;
+    }
+    
+   .link__api__superheroesdb{
+    max-width: 600px;
+   }
+   .link__api__superheroesapi{
+    max-width: 600px;
+   }
+   .link__info__api{
+    max-width: 600px;
+   }
+   .texto__sobre__api{
+    max-width: 600px;
+   }
+   .minha__opiniao{
+    max-width: 600px;
+    font-size: 2.4rem;
+   }
+}
