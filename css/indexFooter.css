@@ -3,6 +3,7 @@
 .area_footer{
     max-width: 1920px;
     width: 100%;
+    
     display: grid;
     grid-template-areas:
         "logofooter logofooter logofooter"

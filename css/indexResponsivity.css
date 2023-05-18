@@ -67,7 +67,7 @@
     footer{
         display: flex;
         max-width: 600px;
-        height: 1200px;
+        height: 1400px;
         justify-content: center;
         align-items: center;
     }
@@ -201,7 +201,7 @@
     
 }
 .container__character{
-    width: 600px;
+    width: 590px;
     height: 760px;
 }
 
@@ -214,9 +214,10 @@
     max-height: 600px;
 
 }
+
 .title__search__heroes{
     display: flex;
-    width: 600px;
+    width: 590px;
     justify-content: center;
 }
 
@@ -224,7 +225,7 @@
 .procura__personagem {
     display: flex;
     position: relative;
-    width: 600px;
+    width: 590px;
     height: 50px;
   }
   
@@ -284,7 +285,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
 
   .texto_copyright_site__dcmarvel{
