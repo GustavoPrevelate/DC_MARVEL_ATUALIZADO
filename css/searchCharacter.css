@@ -1,14 +1,10 @@
-/* Container de pesquisa */
-.procura__personagem {
-    display: flex;
-    position: relative;
-    width: 900px;
-    height: 50px;
-}
+
 
 /* Titulo de pesquisa dentro do container de pesquisa */
 input {
-    width: 100%;
+    display: flex;
+    max-width: 600px;
+    width: 600px;
     padding-left: 4rem;
 
 }
@@ -19,7 +15,7 @@ input {
     border-radius: 2rem;
     top: 3.2rem;
     background-color: var(--red-color);
-    width: 100%;
+    width: 600px;
     max-height: 500px;
     overflow-y: scroll;
     
@@ -58,3 +54,135 @@ input {
     font-weight: 900;    
     cursor: pointer;
 }
+
+@media(max-width: 375px){
+/* Titulo de pesquisa dentro do container de pesquisa */
+input {
+    display: flex;
+    max-width: 375px;
+    width: 375px;
+    padding-left: 4rem;
+
+}
+
+/* Container do resultado da pesquisa */
+.resultado__filtragem__busca {
+    position: absolute;
+    border-radius: 2rem;
+    top: 3.2rem;
+    background-color: var(--red-color);
+    width: 375px;
+    max-height: 500px;
+    overflow-y: scroll;
+    
+}
+
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+/* Container que vai compor tudo sobre o personagem */
+
+    /* Container que engloba a busca de personagem */
+    .sobre-personagem{
+        display: flex;
+        display: grid;
+        grid-template-areas: 
+        "afiliacao"
+        "parentes";
+        background-color: black;
+        border-radius: 20px;
+        max-width: 600px;
+        gap: 40px;
+
+    }
+    
+    /* Sobre quem o personagem é afiliado */
+    .afiliacao{
+        grid-area: afiliacao;
+        font-size: 2rem;
+        color: white;
+        
+    }
+
+    .afiliacao__personagem{
+        display: flex;
+        justify-content: center;
+    }
+    .texto__afiliacao{
+        display: flex;
+        font-size: 1.2rem;
+        color: white;
+        padding-left: 20px;
+    }
+    
+    /* Todos relacionados ao personagem */
+    .parentes{
+        grid-area: parentes;
+        font-size: 2rem;
+        color: white;
+    }
+    
+    .proximos__personagem{
+        display: flex;
+        justify-content: center;
+    }
+    .texto__proximo__ao__personagem{
+        display: flex;
+        font-size: 1.2rem;
+        color: white;
+        padding-left: 20px;
+    }
+
+
+    @media(max-width: 375px){
+       /* Container que engloba a busca de personagem */
+    .sobre-personagem{
+        display: flex;
+        display: grid;
+        grid-template-areas: 
+        "afiliacao"
+        "parentes";
+        background-color: black;
+        max-width: 400px;
+        gap: 40px;
+
+    }
+    
+    /* Sobre quem o personagem é afiliado */
+    .afiliacao{
+        grid-area: afiliacao;
+        font-size: 1rem;
+        color: white;
+        
+    }
+
+    .afiliacao__personagem{
+        display: flex;
+        justify-content: center;
+    }
+    .texto__afiliacao{
+        display: flex;
+        font-size: 0.8rem;
+        color: white;
+        padding-left: 20px;
+    }
+    
+    /* Todos relacionados ao personagem */
+    .parentes{
+        grid-area: parentes;
+        font-size: 1rem;
+        color: white;
+    }
+    
+    .proximos__personagem{
+        display: flex;
+        justify-content: center;
+    }
+    .texto__proximo__ao__personagem{
+        display: flex;
+        font-size: 0.8rem;
+        color: white;
+        padding-left: 20px;
+    }
+    }

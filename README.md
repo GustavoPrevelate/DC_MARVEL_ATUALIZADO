@@ -5,9 +5,9 @@
 # Portfólio
 ---
 
-![Screenshot](./img-readme/header.png)
-![Screenshot](./img-readme/main.png)
-![Screenshot](./img-readme/footer.png)
+![Screenshot](./img-readme/header__index.png)
+![Screenshot](./img-readme/main__index.png)
+![Screenshot](./img-readme/footer__index.png)
 
 [Clique aqui](https://dc-marvel-atualizado.vercel.app/) para visitar o site.
 
@@ -32,7 +32,7 @@ Site desenvolvido para colocar os conhecimentos obtidos no curso do [SENAI Jandi
 
 - Figma
 
-![Screenshot](./img-readme/figma-atualizado.png)
+![Screenshot](./img-readme/figma__atualizado.png)
 
 [Clique aqui](https://www.figma.com/file/OlWHqaiaT2YDRFA0ZpUERf/SuperHeroes---API?type=design&node-id=0-1&t=coGoNwKfCa79qYZx-0) para visitar o Figma.
 
@@ -40,7 +40,7 @@ Site desenvolvido para colocar os conhecimentos obtidos no curso do [SENAI Jandi
 ## Relatório do LightHouse
 O LightHouse basicamente analisa todo o seu site, indicando como está determinados aspectos do mesmo. Segue o relatório:
 
-![Report](./img-readme/lighthouse.png)
+![Report](./img-readme/lighthouse__atualizado.png)
 
 ---
 ## Equipe

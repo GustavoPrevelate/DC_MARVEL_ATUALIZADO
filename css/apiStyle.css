@@ -3,7 +3,7 @@ html {
   }
   
   body {
-    height: 100%;
+    height: 4391px;
     display: grid;
     grid-template-rows: 0.3fr 2fr 0.5fr;
   }
@@ -19,6 +19,7 @@ html {
     display: grid;
     justify-content: center;
     background-color: var(--cyan-color);
+    height: 100%;
   }
   
   footer {

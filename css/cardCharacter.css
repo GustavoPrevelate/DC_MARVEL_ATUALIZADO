@@ -1,11 +1,40 @@
+
+
+/* Container que compõe toda a pesquisa */
+.container__character {
+    display: grid;
+    display: flex;
+    grid-area: 
+    "busca-personagem"
+    "imagem-personagem"
+    "nome-personagem";
+    flex-direction: column;
+    max-width: 600px;
+    gap: 20px;
+    background-color: var(--black-color);
+    border-radius: 2rem;
+}
+
+/* Container de pesquisa */
+.procura__personagem {
+    display: flex;
+    grid-area: busca-personagem;
+    position: relative;
+    max-width: 600px;
+    width: 600px;
+    height: 50px;
+}
+
 /* Modificando posição do personagem */
 .character__hero {
+    grid-area: imagem-personagem;
     display: flex;
     justify-content: center;
 }
 
 /* Card do personagem pesquisado */
 .character__img {
+    grid-area: nome-personagem;
     display: flex;
     height: 500px;
     width: 500px;
@@ -14,18 +43,9 @@
     
 }
 
-/* Container que compõe toda a pesquisa */
-.container__character {
-    display: grid;
-    grid-area: 'left';
-    align-items: center;
-    gap: 60px;
-    background-color: var(--black-color);
-    border-radius: 2rem;
-}
-
 /* Titulo com o nome do personagem */
 .title__character {
+    grid-area: nome;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,4 +55,60 @@
     border-radius: 2rem;
     
     
+}
+
+@media(max-width: 375px){
+
+    /* Container que compõe toda a pesquisa */
+.container__character {
+    display: grid;
+    display: flex;
+    grid-area: 
+    "busca-personagem"
+    "imagem-personagem"
+    "nome-personagem";
+    flex-direction: column;
+    max-width: 375px;
+    max-height: 570px;
+    gap: 20px;
+    background-color: var(--black-color);
+    border-radius: 2rem;
+    
+}
+
+/* Container de pesquisa */
+.procura__personagem {
+    display: flex;
+    grid-area: busca-personagem;
+    position: relative;
+    max-width: 375px;
+    width: 375px;
+    height: 50px;
+}
+
+    /* Card do personagem pesquisado */
+.character__img {
+    grid-area: nome-personagem;
+    display: flex;
+    height: 375px;
+    width: 375px;
+    border: 24px solid var(--cyan-color);
+    border-radius: 20%;
+    
+}
+
+/* Titulo com o nome do personagem */
+.title__character {
+    grid-area: nome;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 80px;
+    font-size: 2rem;
+    background-color: var(--cyan-color);
+    border-radius: 2rem;
+    
+    
+}
 }

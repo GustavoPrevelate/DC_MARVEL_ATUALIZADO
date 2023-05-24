@@ -21,6 +21,31 @@ const resultadoBuscaPersonagem = (dadosPersonagem) => {
 
     // retorno do nome do personagem com base na pesquisa
     document.querySelector('#nome__personagem__encontrado').textContent = dadosPersonagem.name
+
+    let sobrePersonagembuscado = document.querySelector('#sobre-personagem')
+
+
+    if(sobrePersonagembuscado){
+
+        sobrePersonagembuscado.innerHTML = `
+        
+        <div class="sobre-personagem">
+
+            <div class="afiliacao">
+                <h2>Group-Affiliation:</h2>
+                <p>${dadosPersonagem.connections['group-affiliation']}</p>
+            </div>
+
+            <div class="parentes">
+                <h2>Relatives:</h2>
+                <p>${dadosPersonagem.connections['relatives']}</p>
+            </div>
+
+        </div>
+        `
+
+        
+    };
 }
 
 //  ****************************** Funções para pesquisa ******************************

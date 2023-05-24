@@ -28,10 +28,10 @@
     <script src="https://kit.fontawesome.com/3cc9c6ad82.js" crossorigin="anonymous"></script>
 
     <!-- Links para javaScript -->
-    <script src="./js/app.js" type="module" defer></script>
+    <script src="./js/app.js" defer type="module"></script>
     <script src="./js/cardherois.js" defer></script>
-    <script src="./js/main.js" defer></script>
-    <script src="./js/index.js" defer></script>
+    <script src="./js/main.js" defer ></script>
+    
     
     
     <!-- Titulo do site -->
@@ -50,7 +50,7 @@
               <a href="/api" class="logo__dcmarvel__texto" onclick="route()">API</a>
             </div>
             <div class="herois__rota">
-              <a href="/herois" class="logo__dcmarvel__texto" onclick="route()">Herois favoritos</a>
+              <a href="/herois" class="logo__dcmarvel__texto" onclick="route()">Herois </a>
             </div>
             
           </div>
@@ -60,7 +60,8 @@
     </header>
     <main id="root">
       
-
+      
+      <!-- Container que vai conter a pesquisa do personagem, retornando a imagem e o titulo do personagem -->
       <div class="title__search__heroes">
         <h2 class="title__heroes">Aba de seleção de personagem abaixo, retornando imagem </h2>
       </div>    
@@ -79,6 +80,23 @@
           </div>
         </div>
           
+        <!-- Container sobre o personagem selecionado, mostrando personagens próximos a ele a sua afiliação-->
+        <div class="container__tudo__sobre__personagem" id="sobre-personagem">
+            <div class="sobre-personagem">
+
+                <div class="afiliacao">
+                    <h2 class="afiliacao__personagem">Afiliação do personagem</h2>
+                    <p class="texto__afiliacao">Warriors of the Great Web; formerly Mary Janes, Spider-Army</p>
+                </div>
+                
+                <div class="parentes">
+                    <h2 class="proximos__personagem">Próximos ao personagem</h2>
+                    <p class="texto__proximo__ao__personagem">George Stacy (father), Helen Stacy (mother, deceased)</p>
+                </div>
+    
+            </div>
+        </div>
+        
     </main>
     <footer>
       <div class="area_footer">

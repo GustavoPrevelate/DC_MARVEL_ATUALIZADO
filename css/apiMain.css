@@ -7,7 +7,7 @@ main{
     "linkapisuperheroes"
     "meutexto";
     width: 100%;
-    height: 100%;
+    
     background-color: var(--black-color);
     
 }
@@ -52,5 +52,7 @@ main{
     width: 1920px;
     background-color: var(--yellow-color);
     font-size: 3rem;
+    justify-content: center;
+    align-items: center;
     
 }
